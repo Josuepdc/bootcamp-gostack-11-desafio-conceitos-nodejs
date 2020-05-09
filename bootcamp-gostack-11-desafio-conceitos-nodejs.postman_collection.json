@@ -96,6 +96,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Like Repository",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3333/repositories/{{id}}/like",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"repositories",
+						"{{id}}",
+						"like"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
