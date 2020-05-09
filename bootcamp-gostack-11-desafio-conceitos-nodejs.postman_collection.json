@@ -49,6 +49,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Update Repository",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Desafio Node.js 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3333/repositories/{{id}}",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"repositories",
+						"{{id}}"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
