@@ -31,6 +31,24 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Retrieve Repositories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3333/repositories",
+					"host": [
+						"localhost"
+					],
+					"port": "3333",
+					"path": [
+						"repositories"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
